@@ -14,6 +14,6 @@ public class TestController {
     @GetMapping("/test-lock")
     public String testLock() {
         lockedResourceService.accessCriticalSection();
-        return "Check the console output2";
+        return "Check the console output";
     }
 }
